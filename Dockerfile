@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-RUN apt-get update && apt-get install -yq wget unzip socat dumb-init && \
+RUN apt-get update && apt-get install -yq wget unzip socat dumb-init libasound2-dev && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
 RUN mkdir /opt/linbpq
