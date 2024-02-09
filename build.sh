@@ -1,1 +1,1 @@
-docker buildx build  --no-cache -t "marrold/vpe-bpq-arm7:dev" --platform linux/arm/v7 --push .
+docker buildx build  -t "marrold/vpe-bpq-arm7:beta" --platform linux/arm/v7 --push .
